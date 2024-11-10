@@ -1,9 +1,0 @@
-SELECT create_exercise(
-    {{this.params.title}},
-    {{this.params.title_en}},
-    {{this.params.equipment_id}},
-    {{this.params.type_id}},
-    {{this.params.image_url}},
-    {{this.params.custom}},
-    {{this.params.muscle_id}}
-);

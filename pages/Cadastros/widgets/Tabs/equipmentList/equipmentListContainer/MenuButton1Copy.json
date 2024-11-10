@@ -1,0 +1,79 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuItems.menuItem2.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem1.isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItem2.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem1.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "cog",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xtndr5dykp",
+  "label": "",
+  "leftColumn": 57,
+  "menuColor": "#1e3a8a",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": "{{equipmentList.triggeredItem.custom ==  false}}",
+      "isVisible": true,
+      "label": "Edit",
+      "onClick": "{{EquipmentDTO.loadData(equipmentList.triggeredItem);\nshowModal(updateEquipmentModal.name);}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": "{{equipmentList.triggeredItem.custom ==  false}}",
+      "isVisible": true,
+      "label": "Delete",
+      "onClick": "{{EquipmentDTO.loadData(equipmentList.triggeredItem);\nshowModal(deleteEquipmentModal.name);}}",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 50,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.09375,
+  "parentId": "aknwcrho1v",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "te3q1zu4u4",
+  "widgetName": "MenuButton1Copy"
+}
