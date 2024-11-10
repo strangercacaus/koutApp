@@ -1,0 +1,13 @@
+SELECT e.id,
+			 e."title",
+			 e.title_en,
+			 e.created_at,
+			 e.updated_at,
+			 e.equipment_id,
+			 e.type_id,
+			 array(select em.muscle_id from exercise_muscle em where em.exercise_id = e.id) as exercise_muscle_id,
+		     e.image_url,
+			 e.custom
+FROM exercise e
+where e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'
+ORDER BY e.id asc

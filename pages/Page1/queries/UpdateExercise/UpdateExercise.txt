@@ -1,0 +1,10 @@
+BEGIN;
+UPDATE public.exercise
+SET title = {{this.params.title}},
+		title_en = {{this.params.title_en}},
+		equipment_id = {{this.params.equipment_id}},
+		type_id = {{this.params.type_id}},
+		image_url = {{this.params.image_url}},
+		custom = {{this.params.custom}}
+WHERE id = {{this.params.id}}';
+COMMIT;

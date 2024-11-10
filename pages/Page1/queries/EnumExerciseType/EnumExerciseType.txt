@@ -1,0 +1,1 @@
+SELECT id as value, title as label FROM public.exercise_type LIMIT 10;

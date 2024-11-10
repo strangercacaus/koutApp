@@ -1,0 +1,1 @@
+SELECT id as value, title as label FROM public.equipment LIMIT 10;
