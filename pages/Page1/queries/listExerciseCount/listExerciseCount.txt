@@ -1,0 +1,3 @@
+SELECT count(*)
+from public.exercise e
+where e.title ilike '%{{this.params.searchTerm || ""}}%'
