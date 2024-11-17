@@ -31,7 +31,15 @@
   "pages": [
     {
       "id": "Cadastros",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Equipments",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

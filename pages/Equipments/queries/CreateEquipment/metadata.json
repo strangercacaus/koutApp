@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_734fafbf-0ab6-4592-8867-3f891558237d",
-  "id": "Cadastros_ListEquipment",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_04378c33-160d-47d0-b891-dd8ce9999076",
+  "id": "Equipments_CreateEquipment",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.equipment e\nwhere e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\norder by id desc\n",
+      "body": "BEGIN;\nINSERT INTO public.equipment (title, description, custom, image_url) values \n(\n    {{this.params.title}},\n    {{this.params.description}},\n    {{this.params.custom}},\n    {{this.params.image_url}}\n);\nCOMMIT;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "ListEquipment",
-    "pageId": "Cadastros",
+    "name": "CreateEquipment",
+    "pageId": "Equipments",
     "userSetOnLoad": false
   }
 }

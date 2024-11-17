@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_734fafbf-0ab6-4592-8867-3f891558237d",
-  "id": "Cadastros_ListEquipment",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_587e0ae2-b869-4a93-ad81-7d711d89ec82",
+  "id": "Equipments_ListEquipment",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "ListEquipment",
-    "pageId": "Cadastros",
+    "pageId": "Equipments",
     "userSetOnLoad": false
   }
 }

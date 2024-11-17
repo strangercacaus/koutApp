@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_734fafbf-0ab6-4592-8867-3f891558237d",
-  "id": "Cadastros_ListEquipment",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_2b3dfe31-97c7-4754-ab86-4789957b5693",
+  "id": "Equipments_UpdateEquipment",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.equipment e\nwhere e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\norder by id desc\n",
+      "body": "BEGIN;\nUPDATE public.equipment set\n\t\ttitle = {{this.params.title}},\n    description = {{this.params.description}},\n    custom = {{this.params.custom}},\n    image_url = {{this.params.image_url}}\nWHERE id = {{this.params.id}};\nCOMMIT;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "ListEquipment",
-    "pageId": "Cadastros",
+    "name": "UpdateEquipment",
+    "pageId": "Equipments",
     "userSetOnLoad": false
   }
 }

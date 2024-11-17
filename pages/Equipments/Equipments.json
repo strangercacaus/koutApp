@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_4ed76e5f-bf2f-4c00-8844-b71852f2565b",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_d1623944-2cd0-4914-8d07-73f5dd6e741c",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
@@ -11,14 +11,13 @@
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 810,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 79,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Cadastros",
-    "slug": "cadastros"
+    "name": "Equipments",
+    "slug": "equipments"
   }
 }

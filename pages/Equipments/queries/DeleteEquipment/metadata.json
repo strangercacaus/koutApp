@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_734fafbf-0ab6-4592-8867-3f891558237d",
-  "id": "Cadastros_ListEquipment",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_df0db7d0-a9b5-434e-bd89-d058a77e0a67",
+  "id": "Equipments_DeleteEquipment",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.equipment e\nwhere e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\norder by id desc\n",
+      "body": "BEGIN;\nDELETE FROM public.equipment where id = {{this.params.id}};\nCOMMIT;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "ListEquipment",
-    "pageId": "Cadastros",
+    "name": "DeleteEquipment",
+    "pageId": "Equipments",
     "userSetOnLoad": false
   }
 }

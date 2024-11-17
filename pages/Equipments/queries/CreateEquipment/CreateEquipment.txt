@@ -1,0 +1,9 @@
+BEGIN;
+INSERT INTO public.equipment (title, description, custom, image_url) values 
+(
+    {{this.params.title}},
+    {{this.params.description}},
+    {{this.params.custom}},
+    {{this.params.image_url}}
+);
+COMMIT;
