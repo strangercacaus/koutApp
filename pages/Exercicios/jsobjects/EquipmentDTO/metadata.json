@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_4c135520-f4c1-4b3c-abb9-62a77ba1d69b",
+  "id": "Exercicios_EquipmentDTO",
+  "unpublishedCollection": {
+    "name": "EquipmentDTO",
+    "pageId": "Exercicios",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "equipmentDTO",
+        "value": "{\n  id: null,\n  created_at: null,\n  updated_at: null,\n  title: null,\n  description: null,\n  custom: null,\n  image_url: null\n}"
+      }
+    ]
+  }
+}

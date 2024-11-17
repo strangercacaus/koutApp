@@ -1,0 +1,8 @@
+BEGIN;
+UPDATE public.equipment SET
+		title = {{this.params.title}},
+    description = {{this.params.description}},
+    custom = {{this.params.custom}},
+    image_url = {{this.params.image_url}}
+WHERE id = {{this.params.id}};
+COMMIT;

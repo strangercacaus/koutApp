@@ -1,0 +1,16 @@
+SELECT wp.id,
+			 wp."title",
+			 wp.description,
+			 wp.created_at,
+			 wp.updated_at,
+			 wp.start_date,
+			 wp.end_date,
+			 wp.active,
+			 wp.personal_trainer
+FROM public.workout_plan wp
+WHERE CASE 
+				WHEN {{this.params.active}} = 2 THEN wp.active = TRUE
+				WHEN {{this.params.active}} = 1 THEN wp.active = FALSE
+				ELSE TRUE
+			END
+ORDER BY wp.id asc;

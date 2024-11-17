@@ -1,0 +1,15 @@
+BEGIN;
+UPDATE public.workout_option_item
+SET 
+	"exercise_id" = {{this.params.exercise_id}},
+	"sets" = {{this.params.sets}},
+	"reps" = {{this.params.reps}},
+	"restpause" = {{this.params.restpause}},
+	"load" = {{this.params.load}},
+	"incline" = {{this.params.incline}},
+	"condition" = {{this.params.condition}},
+	"order" = {{this.params.order}},
+	"duration" = {{this.params.duration}},
+	"active" = {{this.params.active}}
+WHERE id = {{this.params.id}};
+COMMIT;

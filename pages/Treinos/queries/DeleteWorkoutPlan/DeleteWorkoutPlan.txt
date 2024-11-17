@@ -1,0 +1,4 @@
+BEGIN;
+DELETE FROM public.workout_plan
+WHERE id = {{this.params.id}};
+COMMIT;

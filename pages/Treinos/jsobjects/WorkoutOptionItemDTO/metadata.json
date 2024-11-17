@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67393a64182e8c5d833cfdde_ea6e5fa0-9421-40ff-8afb-0f6b4682316d",
+  "id": "Treinos_WorkoutOptionItemDTO",
+  "unpublishedCollection": {
+    "name": "WorkoutOptionItemDTO",
+    "pageId": "Treinos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "workoutOptionItemDTO",
+        "value": "{\n  id: null,\n  created_at: null,\n  updated_at: null,\n  workout_option_id: null,\n  exercise_id: null,\n  exercise_name: null,\n  exercise_image_url: null,\n  exercise_type: null,\n  equipment_name: null,\n  reps: null,\n  sets: null,\n  restpause: null,\n  load: null,\n  incline: null,\n  condition: null,\n  order: null,\n  duration: null,\n  active: null\n}"
+      }
+    ]
+  }
+}

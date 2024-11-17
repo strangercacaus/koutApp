@@ -1,0 +1,20 @@
+BEGIN;
+INSERT INTO public.workout_plan
+	(
+	title,
+	description,
+	start_date,
+	end_date,
+	active,
+	personal_trainer
+	) 
+	VALUES
+  (
+	{{this.params.title}},
+  {{this.params.description}},
+  {{this.params.start_date}},
+  {{this.params.end_date}},
+  {{this.params.active}},
+  {{this.params.personal_trainer}}
+	);
+COMMIT;

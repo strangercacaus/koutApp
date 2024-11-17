@@ -1,0 +1,10 @@
+UPDATE public.workout_plan
+SET 
+	title = {{this.params.title}},
+	description = {{this.params.description}},
+	start_date = {{this.params.start_date}},
+	end_date =  {{this.params.end_date}},
+	active = {{this.params.active}},
+	personal_trainer = {{this.params.personal_trainer}}
+WHERE id = {{this.params.id}};
+COMMIT;

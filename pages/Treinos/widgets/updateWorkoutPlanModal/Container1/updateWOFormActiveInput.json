@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "RIGHT",
+  "animateLoading": true,
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tm45asisor",
+  "label": "Ativo",
+  "labelPosition": "Left",
+  "leftColumn": 48,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "onChange": "{{WorkoutPlanDTO.saveDataFromUI(WorkoutPlanDTO.workoutPlanDTO.id, WorkoutPlanDTO.workoutPlanDTO.title, WorkoutPlanDTO.workoutPlanDTO.description, WorkoutPlanDTO.workoutPlanDTO.start_date, WorkoutPlanDTO.workoutPlanDTO.end_date, updateWOFormActiveInput.isSwitchedOn, WorkoutPlanDTO.workoutPlanDTO.personal_trainer);}}",
+  "originalBottomRow": 28,
+  "originalTopRow": 24,
+  "parentColumnSpace": 6.0782470703125,
+  "parentId": "iefnhsts2i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 24,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "emw2kynn5v",
+  "widgetName": "updateWOFormActiveInput"
+}

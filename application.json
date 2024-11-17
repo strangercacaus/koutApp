@@ -14,7 +14,7 @@
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": true
     },
     "themeSetting": {
@@ -30,15 +30,15 @@
   "icon": "bicycle",
   "pages": [
     {
-      "id": "Cadastros",
+      "id": "Exercicios",
       "isDefault": false
     },
     {
-      "id": "Home",
+      "id": "Treinos",
       "isDefault": true
     },
     {
-      "id": "Equipments",
+      "id": "Equipamentos",
       "isDefault": false
     }
   ],
@@ -56,7 +56,7 @@
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": true
     },
     "themeSetting": {

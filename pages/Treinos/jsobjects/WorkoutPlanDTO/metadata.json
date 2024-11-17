@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67393a64182e8c5d833cfdde_4baaef02-aae1-4cb4-83b9-3018f0ada9ea",
+  "id": "Treinos_WorkoutPlanDTO",
+  "unpublishedCollection": {
+    "name": "WorkoutPlanDTO",
+    "pageId": "Treinos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "workoutPlanDTO",
+        "value": "{\n  id: null,\n  title: null,\n  description: null,\n  start_date: null,\n  end_date: null,\n  active: null,\n  personal_trainer: null\n}"
+      }
+    ]
+  }
+}
