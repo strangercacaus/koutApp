@@ -31,18 +31,18 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "overflow": "NONE",
-  "parentId": "7v1fo6f1et",
+  "parentId": "nhoydx8a07",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "Excluir Plano de Treino",
+  "text": "Excluir Variação",
   "textAlign": "LEFT",
   "textColor": "#1e3a8a",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "291df8kycu",
-  "widgetName": "Text1"
+  "widgetId": "093c5zdvpd",
+  "widgetName": "Text1Copy3"
 }

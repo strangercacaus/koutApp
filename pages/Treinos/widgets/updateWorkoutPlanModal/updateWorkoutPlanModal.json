@@ -4,7 +4,7 @@
   "bottomRow": 329,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
-  "canOutsideClickClose": true,
+  "canOutsideClickClose": false,
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -70,7 +70,7 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClose": "{{WorkoutPlanDTO.clearData();\nListWorkoutPlan.run();}}",
+  "onClose": "{{ListWorkoutPlan.run();}}",
   "parentColumnSpace": 6.53125,
   "parentId": "0",
   "parentRowSpace": 10,

@@ -5,5 +5,4 @@ SELECT wp.id,
 			 wp.active,
 			 wp.workout_plan_id
 FROM public.workout_option wp
-WHERE workout_plan_id = {{this.params.workout_plan_id}}
 ORDER BY wp.id asc;

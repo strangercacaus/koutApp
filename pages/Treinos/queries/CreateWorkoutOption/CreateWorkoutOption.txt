@@ -1,5 +1,5 @@
 BEGIN;
-INSERT INTO public.workout_plan
+INSERT INTO public.workout_option
 	(
 	title,
 	active,

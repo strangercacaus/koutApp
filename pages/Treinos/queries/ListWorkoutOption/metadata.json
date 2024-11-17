@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT wp.id,\n\t\t\t wp.\"title\",\n\t\t\t wp.created_at,\n\t\t\t wp.updated_at,\n\t\t\t wp.active,\n\t\t\t wp.workout_plan_id\nFROM public.workout_option wp\nWHERE workout_plan_id = {{this.params.workout_plan_id}}\nORDER BY wp.id asc;",
+      "body": "SELECT wp.id,\n\t\t\t wp.\"title\",\n\t\t\t wp.created_at,\n\t\t\t wp.updated_at,\n\t\t\t wp.active,\n\t\t\t wp.workout_plan_id\nFROM public.workout_option wp\nORDER BY wp.id asc;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,11 +22,7 @@
       "name": "workoutapp @ supabase",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "ListWorkoutOption",
     "pageId": "Treinos",

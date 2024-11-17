@@ -279,7 +279,6 @@
           "originalIdentifier": "end_date",
           "position": 6,
           "shortcuts": false,
-          "sourceData": null,
           "timePrecision": "minute"
         },
         "id": {
@@ -348,7 +347,6 @@
           "originalIdentifier": "start_date",
           "position": 5,
           "shortcuts": false,
-          "sourceData": null,
           "timePrecision": "minute"
         },
         "title": {

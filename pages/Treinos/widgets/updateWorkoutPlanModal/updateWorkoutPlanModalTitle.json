@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "7tpqfhy9mg",
-  "leftColumn": 2,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 53,
-  "originalTopRow": 34,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 6.4921875,
   "parentId": "al3qokk0sl",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 39,
   "shouldTruncate": false,
-  "text": "Variação",
+  "text": "Editar Plano de Treino",
   "textAlign": "LEFT",
   "textColor": "#1e3a8a",
-  "topRow": 34,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "nr8ph151t3",
-  "widgetName": "updateFormTitleCopy"
+  "widgetId": "675m2wsen7",
+  "widgetName": "updateWorkoutPlanModalTitle"
 }

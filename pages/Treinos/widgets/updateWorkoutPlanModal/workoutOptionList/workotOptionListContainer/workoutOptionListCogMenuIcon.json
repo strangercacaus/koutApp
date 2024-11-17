@@ -5,13 +5,22 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
-      "key": "menuItems.menuItem2.isDisabled"
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "menuItems.menuItem2.isDisabled"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -25,9 +34,9 @@
   "iconAlign": "left",
   "iconName": "cog",
   "isCompact": false,
-  "isDisabled": false,
+  "isDisabled": "{{ListWorkoutOption.data.filter(row => row.workout_plan_id === WorkoutPlanDTO.workoutPlanDTO.id).length > 0 ? false : true}}",
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{ListWorkoutOption.data.filter(row => row.workout_plan_id === WorkoutPlanDTO.workoutPlanDTO.id).length > 0 ? true : false}}",
   "key": "xtndr5dykp",
   "label": "",
   "leftColumn": 58,
@@ -39,16 +48,16 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Edit",
-      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(updateWorkoutPlanModal.name);\nListWorkoutOption.run()}}",
+      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(updateWorkoutPlanModal.name);}}",
       "widgetId": ""
     },
     "menuItem2": {
       "id": "menuItem2",
       "index": 1,
-      "isDisabled": "{{exerciseList.triggeredItem.custom ==  false}}",
+      "isDisabled": "",
       "isVisible": true,
       "label": "Delete",
-      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(deleteWorkoutPlanModal.name);}}",
+      "onClick": "{{WorkoutOptionDTO.loadData(workoutOptionList.triggeredItem);\nshowModal(deleteWorkoutOptionModal.name);}}",
       "widgetId": ""
     }
   },
@@ -60,7 +69,7 @@
   "mobileTopRow": 4,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.09375,
-  "parentId": "dvsv14tsun",
+  "parentId": "bv11b6cqu3",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
@@ -68,6 +77,6 @@
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "4mv2cex004",
-  "widgetName": "MenuButton1"
+  "widgetId": "9lzhr3sb37",
+  "widgetName": "workoutOptionListCogMenuIcon"
 }

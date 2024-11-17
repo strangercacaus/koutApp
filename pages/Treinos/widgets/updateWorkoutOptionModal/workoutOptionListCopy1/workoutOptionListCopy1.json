@@ -46,7 +46,7 @@
       "noPad": true,
       "openParentPropertyPane": true,
       "parentColumnSpace": 1,
-      "parentId": "ph6j9ao6oy",
+      "parentId": "wydghyn5mc",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -54,8 +54,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "f3li0pn7lc",
-      "widgetName": "Canvas1Copy"
+      "widgetId": "li96xh2ssu",
+      "widgetName": "Canvas1CopyCopy1"
     }
   ],
   "currentItemsView": "{{[]}}",
@@ -98,8 +98,8 @@
   "key": "n0amps60ke",
   "leftColumn": 1,
   "listData": "{{ListWorkoutOption.data.filter(row => row.workout_plan_id === WorkoutPlanDTO.workoutPlanDTO.id).length > 0 ? ListWorkoutOption.data.filter(row => row.workout_plan_id === WorkoutPlanDTO.workoutPlanDTO.id) : [{id:0, title: \"Nenhum resultado\"}]}}",
-  "mainCanvasId": "f3li0pn7lc",
-  "mainContainerId": "68k4inqypa",
+  "mainCanvasId": "li96xh2ssu",
+  "mainContainerId": "d5e902gnvz",
   "minWidth": 450,
   "mobileBottomRow": 81,
   "mobileLeftColumn": 0,
@@ -111,9 +111,9 @@
   "originalTopRow": 54,
   "pageSize": 3,
   "parentColumnSpace": 6.84375,
-  "parentId": "al3qokk0sl",
+  "parentId": "721qf9oe92",
   "parentRowSpace": 10,
-  "primaryKeys": "{{exerciseListCopy.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "primaryKeys": "{{workoutOptionListCopy1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
   "renderMode": "CANVAS",
   "requiresFlatWidgetChildren": true,
   "responsiveBehavior": "fill",
@@ -124,6 +124,6 @@
   "topRow": 39,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
-  "widgetId": "ph6j9ao6oy",
-  "widgetName": "exerciseListCopy"
+  "widgetId": "wydghyn5mc",
+  "widgetName": "workoutOptionListCopy1"
 }

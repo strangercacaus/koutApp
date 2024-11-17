@@ -154,11 +154,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
@@ -179,11 +175,11 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onSubmit": "{{WorkoutOptionDTO.saveDataFromUI('', createJsonFormCopy.formData.title, createJsonFormCopy.formData.active, WorkoutPlanDTO.workoutPlanDTO.id, createJsonFormCopy.formData.active, WorkoutPlanDTO.workoutPlanDTO.id);\nWorkoutOptionDTO.save();\ncloseModal(createWorkoutOptionModal.name);}}",
+  "onSubmit": "{{WorkoutOptionDTO.saveDataFromUI('null', 'null', 'null', createJsonFormCopy.formData.title, createJsonFormCopy.formData.active, createJsonFormCopy.formData.workout_plan_id);\nWorkoutPlanDTO.save();\ncloseModal(createWorkoutOptionModal.name);}}",
   "originalBottomRow": 31,
   "originalTopRow": 5,
   "parentColumnSpace": 6.1796875,
-  "parentId": "2zhiuwvytw",
+  "parentId": "jjyfy0q233",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetButtonLabel": "Limpar",
@@ -313,7 +309,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (WorkoutPlanDTO.workoutPlanDTO.id))(createJsonFormCopy.sourceData, createJsonFormCopy.formData, createJsonFormCopy.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.workout_plan_id))(createJsonFormCopy.sourceData, createJsonFormCopy.formData, createJsonFormCopy.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "workout_plan_id",
@@ -358,6 +354,6 @@
   "type": "JSON_FORM_WIDGET",
   "useSourceData": true,
   "version": 1,
-  "widgetId": "zarqovwt58",
-  "widgetName": "createJsonFormCopy"
+  "widgetId": "8l83aba2b9",
+  "widgetName": "createJsonFormCopyCopy"
 }

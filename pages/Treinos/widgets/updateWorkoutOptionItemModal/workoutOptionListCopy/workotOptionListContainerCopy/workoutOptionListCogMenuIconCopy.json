@@ -5,9 +5,6 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
-      "key": "menuItems.menuItem2.isDisabled"
-    },
-    {
       "key": "isVisible"
     },
     {
@@ -57,10 +54,10 @@
     "menuItem2": {
       "id": "menuItem2",
       "index": 1,
-      "isDisabled": "{{exerciseList.triggeredItem.custom ==  false}}",
+      "isDisabled": "",
       "isVisible": true,
       "label": "Delete",
-      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(deleteWorkoutPlanModal.name);}}",
+      "onClick": "{{WorkoutOptionDTO.loadData(workoutOptionList.triggeredItem);\nshowModal(deleteWorkoutOptionModal.name);}}",
       "widgetId": ""
     }
   },
@@ -72,7 +69,7 @@
   "mobileTopRow": 4,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.09375,
-  "parentId": "bv11b6cqu3",
+  "parentId": "72cb9cix3k",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
@@ -80,6 +77,6 @@
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "9lzhr3sb37",
-  "widgetName": "MenuButton1Copy"
+  "widgetId": "mhbt5z5yil",
+  "widgetName": "workoutOptionListCogMenuIconCopy"
 }

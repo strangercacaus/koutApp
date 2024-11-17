@@ -27,9 +27,9 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
-  "onClick": "{{WorkoutOptionDTO.clearData();\nshowModal(createWorkoutOptionModal.name);}}",
+  "onClick": "{{WorkoutOptionDTO.clearData();\nshowModal()}}",
   "parentColumnSpace": 6.4921875,
-  "parentId": "al3qokk0sl",
+  "parentId": "721qf9oe92",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
@@ -37,6 +37,6 @@
   "topRow": 34,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "rngniqcrjq",
-  "widgetName": "IconButton2"
+  "widgetId": "hxnozk3g3h",
+  "widgetName": "IconButton2Copy1"
 }
