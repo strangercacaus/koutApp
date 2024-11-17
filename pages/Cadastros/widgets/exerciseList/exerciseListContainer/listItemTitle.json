@@ -19,7 +19,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Ubuntu",
+  "fontFamily": "System Default",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,

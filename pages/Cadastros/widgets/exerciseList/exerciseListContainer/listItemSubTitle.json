@@ -19,7 +19,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Open Sans",
+  "fontFamily": "System Default",
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
