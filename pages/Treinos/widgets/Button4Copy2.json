@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +31,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 75,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Exercicios', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 81,
   "originalTopRow": 76,
   "parentColumnSpace": 6.84375,
