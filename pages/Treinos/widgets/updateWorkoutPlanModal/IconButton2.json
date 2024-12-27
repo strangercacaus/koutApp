@@ -27,7 +27,7 @@
   "mobileRightColumn": 60,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
-  "onClick": "{{WorkoutOptionDTO.clearData();\nshowModal(createWorkoutOptionModal.name);}}",
+  "onClick": "{{showModal(createWorkoutItemModal.name);\nWorkoutItemDTO.loadData(workoutItemList.triggeredItem);}}",
   "parentColumnSpace": 6.4921875,
   "parentId": "al3qokk0sl",
   "parentRowSpace": 10,

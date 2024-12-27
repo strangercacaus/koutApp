@@ -1,0 +1,5 @@
+SELECT e.id as value,
+			 e."title" as label
+FROM exercise e
+where e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'
+ORDER BY e.id asc;

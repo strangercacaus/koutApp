@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "BEGIN;\nUPDATE public.equipment set\n\t\ttitle = {{this.params.title}},\n    description = {{this.params.description}},\n    custom = {{this.params.custom}},\n    image_url = {{this.params.image_url}}\nWHERE id = {{this.params.id}};\nCOMMIT;",
+      "body": "UPDATE public.equipment set\n\t\ttitle = {{this.params.title}},\n    description = {{this.params.description}},\n    custom = {{this.params.custom}},\n    image_url = {{this.params.image_url}}\nWHERE id = {{this.params.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

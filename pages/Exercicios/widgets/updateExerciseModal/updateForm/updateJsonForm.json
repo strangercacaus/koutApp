@@ -87,28 +87,19 @@
   "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
-      "key": "boxShadow"
-    },
-    {
       "key": "sourceData"
     },
     {
-      "key": "schema.__root_schema__.children.id.defaultValue"
+      "key": "schema.__root_schema__.children.customField1.options"
     },
     {
-      "key": "schema.__root_schema__.children.id.accentColor"
+      "key": "schema.__root_schema__.children.customField1.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.id.borderRadius"
+      "key": "schema.__root_schema__.children.customField1.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.created_at.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.created_at.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.created_at.borderRadius"
+      "key": "schema.__root_schema__.children.customField1.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.updated_at.defaultValue"
@@ -120,31 +111,16 @@
       "key": "schema.__root_schema__.children.updated_at.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.title.defaultValue"
+      "key": "schema.__root_schema__.children.image_url.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.title.accentColor"
+      "key": "schema.__root_schema__.children.image_url.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.title.borderRadius"
+      "key": "schema.__root_schema__.children.image_url.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.title_en.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.title_en.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.title_en.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.equipment_id.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.equipment_id.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.equipment_id.borderRadius"
+      "key": "schema.__root_schema__.children.type_id.options"
     },
     {
       "key": "schema.__root_schema__.children.type_id.defaultValue"
@@ -156,15 +132,6 @@
       "key": "schema.__root_schema__.children.type_id.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.image_url.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.image_url.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.image_url.borderRadius"
-    },
-    {
       "key": "schema.__root_schema__.children.custom.defaultValue"
     },
     {
@@ -174,31 +141,55 @@
       "key": "schema.__root_schema__.children.custom.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.defaultValue"
+      "key": "schema.__root_schema__.children.created_at.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.borderRadius"
+      "key": "schema.__root_schema__.children.created_at.accentColor"
     },
     {
-      "key": "schema.__root_schema__.cellBorderRadius"
+      "key": "schema.__root_schema__.children.created_at.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.title_en.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.title_en.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.title_en.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.equipment_id.options"
     },
     {
-      "key": "schema.__root_schema__.children.type_id.options"
+      "key": "schema.__root_schema__.children.equipment_id.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.customField1.accentColor"
+      "key": "schema.__root_schema__.children.equipment_id.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.customField1.borderRadius"
+      "key": "schema.__root_schema__.children.equipment_id.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.customField1.options"
-    },
-    {
-      "key": "schema.__root_schema__.children.customField1.defaultValue"
+      "key": "boxShadow"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -227,7 +218,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onSubmit": "{{ExerciseDTO.saveDataFromUI(updateJsonForm.formData.id, updateJsonForm.formData.title, updateJsonForm.formData.title_en, 'null', 'null', updateJsonForm.formData.equipment_id, updateJsonForm.formData.muscle_id, updateJsonForm.formData.type_id, updateJsonForm.formData.image_url, 'True');\nExerciseDTO.update();\ncloseModal(updateExerciseModal.name);}}",
+  "onSubmit": "{{ExerciseDTO.saveDataFromUI(updateJsonForm.formData.id, updateJsonForm.formData.title, updateJsonForm.formData.title_en, 'null', 'null', updateJsonForm.formData.equipment_id, updateJsonForm.formData.muscle_group_id, updateJsonForm.formData.type_id, updateJsonForm.formData.image_url, 'True');\nExerciseDTO.update();\ncloseModal(updateExerciseModal.name);}}",
   "originalBottomRow": 62,
   "originalTopRow": 4,
   "parentColumnSpace": 6.1796875,
@@ -295,12 +286,12 @@
         },
         "customField1": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(updateJsonForm.sourceData, updateJsonForm.formData, updateJsonForm.fieldState)}}",
-          "accessor": "muscle_id",
+          "accessor": "muscle_group_id",
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(updateJsonForm.sourceData, updateJsonForm.formData, updateJsonForm.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "array",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.muscle_id))(updateJsonForm.sourceData, updateJsonForm.formData, updateJsonForm.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.muscle_group_id))(updateJsonForm.sourceData, updateJsonForm.formData, updateJsonForm.fieldState)}}",
           "fieldType": "Multiselect",
           "identifier": "customField1",
           "isCustomField": true,
@@ -310,7 +301,7 @@
           "isVisible": true,
           "label": "Musculatura",
           "labelTextSize": "0.875rem",
-          "options": "{{EnumMuscle.data}}",
+          "options": "{{EnumMuscleGroups.data}}",
           "originalIdentifier": "customField1",
           "placeholderText": "Selecione",
           "position": 6,

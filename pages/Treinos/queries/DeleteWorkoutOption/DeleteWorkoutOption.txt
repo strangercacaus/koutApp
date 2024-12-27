@@ -1,4 +1,0 @@
-BEGIN;
-DELETE FROM public.workout_option
-WHERE id = {{this.params.id}};
-COMMIT;

@@ -1,4 +1,3 @@
-BEGIN;
 SELECT create_exercise(
     {{this.params.title}},
     {{this.params.title_en}},
@@ -6,6 +5,5 @@ SELECT create_exercise(
     {{this.params.type_id}},
     {{this.params.image_url}},
     {{this.params.custom}},
-    {{this.params.muscle_id}}
+    {{this.params.muscle_group_id}}
 );
-COMMIT;

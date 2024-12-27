@@ -6,5 +6,5 @@ SELECT update_exercise(
     {{this.params.type_id}},
     {{this.params.image_url}},
     {{this.params.custom}},
-    {{this.params.muscle_id}}
+    {{this.params.muscle_group_id}}
 );

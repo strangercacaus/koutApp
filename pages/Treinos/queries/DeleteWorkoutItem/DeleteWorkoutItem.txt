@@ -1,0 +1,2 @@
+DELETE FROM public.workout_item
+WHERE id = {{this.params.id}};

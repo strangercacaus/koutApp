@@ -39,7 +39,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "Edit",
-      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(updateWorkoutPlanModal.name);\nListWorkoutOption.run()}}",
+      "onClick": "{{WorkoutPlanDTO.loadData(exerciseList.triggeredItem);\nshowModal(updateWorkoutPlanModal.name);\nListWorkoutItem.run({\n  \"workout_plan_id\": WorkoutPlanDTO.workoutPlanDTO.id\n});}}",
       "widgetId": ""
     },
     "menuItem2": {

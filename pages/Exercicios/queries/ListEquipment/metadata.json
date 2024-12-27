@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.equipment e\nwhere e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\norder by id desc\n",
+      "body": "SELECT * FROM public.equipment e\nwhere e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\norder by id desc;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

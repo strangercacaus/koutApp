@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.workout_plan\nSET \n\ttitle = {{this.params.title}},\n\tdescription = {{this.params.description}},\n\tstart_date = {{this.params.start_date}},\n\tend_date =  {{this.params.end_date}},\n\tactive = {{this.params.active}},\n\tpersonal_trainer = {{this.params.personal_trainer}}\nWHERE id = {{this.params.id}};\nCOMMIT;",
+      "body": "UPDATE public.workout_plan\nSET \n\ttitle = {{this.params.title}},\n\tdescription = {{this.params.description}},\n\tstart_date = {{this.params.start_date}},\n\tend_date =  {{this.params.end_date}},\n\tactive = {{this.params.active}},\n\tpersonal_trainer = {{this.params.personal_trainer}}\nWHERE id = {{this.params.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

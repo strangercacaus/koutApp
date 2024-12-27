@@ -1,0 +1,23 @@
+SELECT woi.id,
+			 woi.created_at,
+			 woi.updated_at,
+			 woi.workout_plan_id,
+			 woi.exercise_id,
+			 e.title as exercise_name,
+			 e.image_url as exercise_image_url,
+			 et.title as exercise_type,
+			 eq.title as equipment_name,
+			 woi.reps,
+			 woi.sets,
+			 woi.restpause,
+			 woi.load,
+			 woi.incline,
+			 woi.condition,
+			 woi.order,
+			 woi.duration
+FROM public.workout_item woi
+join public.exercise e on woi.exercise_id = e.id
+join public.equipment  eq on e.equipment_id = eq.id
+join public.exercise_type et on e.type_id = et.id
+where woi.workout_plan_id = {{this.params.workout_plan_id}}
+ORDER BY woi.id asc;

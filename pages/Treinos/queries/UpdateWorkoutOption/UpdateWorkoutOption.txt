@@ -1,8 +1,0 @@
-BEGIN;
-UPDATE public.workout_option
-SET 
-	title = {{this.params.title}},
-	active = {{this.params.active}},
-	workout_plan_id = {{this.params.workoutPlanId}};
-WHERE id = {{this.params.id}};
-COMMIT;

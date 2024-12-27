@@ -70,7 +70,7 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClose": "{{ListWorkoutPlan.run();}}",
+  "onClose": "",
   "parentColumnSpace": 6.53125,
   "parentId": "0",
   "parentRowSpace": 10,

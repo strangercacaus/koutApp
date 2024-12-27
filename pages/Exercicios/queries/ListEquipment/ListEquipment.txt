@@ -1,3 +1,3 @@
 SELECT * FROM public.equipment e
 where e.title ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'
-order by id desc
+order by id desc;

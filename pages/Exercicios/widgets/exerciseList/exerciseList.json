@@ -9,7 +9,7 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "0.375rem",
-  "bottomRow": 75,
+  "bottomRow": 79,
   "boxShadow": "none",
   "children": [
     {
@@ -62,22 +62,10 @@
   "defaultSelectedItem": "",
   "dynamicBindingPathList": [
     {
-      "key": "currentItemsView"
-    },
-    {
-      "key": "selectedItemView"
-    },
-    {
-      "key": "triggeredItemView"
+      "key": "listData"
     },
     {
       "key": "primaryKeys"
-    },
-    {
-      "key": "accentColor"
-    },
-    {
-      "key": "listData"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -121,7 +109,7 @@
   "selectedItemView": "{{{}}}",
   "serverSidePagination": false,
   "templateHeight": 160,
-  "topRow": 10,
+  "topRow": 14,
   "triggeredItemView": "{{{}}}",
   "type": "LIST_WIDGET_V2",
   "widgetId": "6fjfr8q03q",

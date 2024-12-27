@@ -1,0 +1,16 @@
+SELECT e.id,
+			 e."title",
+			 e.title_en,
+			 e.created_at,
+			 e.updated_at,
+			 eq.title as equipment,
+			 et.title as type,
+			 array(select em.muscle_group_id from exercise_muscle_group em where em.exercise_id = e.id) as muscle_group_id,
+		     e.image_url,
+			 e.custom
+FROM exercise e
+join exercise_type et on e.type_id = et.id
+join equipment eq on eq.id = e.equipment_id
+where e.id = {{this.params.exercise_id}}
+ORDER BY e.id ASC
+limit 1;

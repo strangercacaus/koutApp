@@ -87,25 +87,7 @@
   "disabledWhenInvalid": true,
   "dynamicBindingPathList": [
     {
-      "key": "boxShadow"
-    },
-    {
-      "key": "schema.__root_schema__.children.id.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.id.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.id.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.created_at.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.created_at.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.created_at.borderRadius"
+      "key": "sourceData"
     },
     {
       "key": "schema.__root_schema__.children.updated_at.defaultValue"
@@ -115,15 +97,6 @@
     },
     {
       "key": "schema.__root_schema__.children.updated_at.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.title.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.title.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.title.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.image_url.defaultValue"
@@ -144,13 +117,13 @@
       "key": "schema.__root_schema__.children.custom.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.defaultValue"
+      "key": "schema.__root_schema__.children.created_at.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.borderRadius"
+      "key": "schema.__root_schema__.children.created_at.accentColor"
     },
     {
-      "key": "schema.__root_schema__.cellBorderRadius"
+      "key": "schema.__root_schema__.children.created_at.borderRadius"
     },
     {
       "key": "schema.__root_schema__.children.description.defaultValue"
@@ -162,7 +135,25 @@
       "key": "schema.__root_schema__.children.description.borderRadius"
     },
     {
-      "key": "sourceData"
+      "key": "schema.__root_schema__.children.id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.title.borderRadius"
+    },
+    {
+      "key": "boxShadow"
     }
   ],
   "dynamicHeight": "FIXED",

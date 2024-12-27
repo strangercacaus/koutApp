@@ -5,10 +5,10 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
-      "key": "menuItems.menuItem2.isDisabled"
+      "key": "menuItems.menuItem1.isDisabled"
     },
     {
-      "key": "menuItems.menuItem1.isDisabled"
+      "key": "menuItems.menuItem2.isDisabled"
     }
   ],
   "dynamicHeight": "FIXED",

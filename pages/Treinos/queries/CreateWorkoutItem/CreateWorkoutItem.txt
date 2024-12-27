@@ -1,0 +1,13 @@
+SELECT public.create_workout_item 
+		(
+		{{this.params.workout_plan_id}},
+		{{this.params.exercise_id}},
+	  {{this.params.reps}},
+		{{this.params.sets}},
+		{{this.params.restpause}},
+		{{this.params.load}},
+		{{this.params.incline}},
+		{{this.params.condition}},
+		{{this.params.order}},
+		{{this.params.duration}}
+		);

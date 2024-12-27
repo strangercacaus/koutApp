@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_ca0c9f17-8d7e-4590-be29-0d50ff2f5eee",
+  "id": "Treinos_ExerciseDTO",
+  "unpublishedCollection": {
+    "name": "ExerciseDTO",
+    "pageId": "Treinos",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "exerciseDTO",
+        "value": "{\n  id: null,\n  created_at: null,\n  updated_at: null,\n  title: null,\n  title_en: null,\n  equipment: null,\n  muscle_group_id: null,\n  type: null,\n  image_url: null,\n  custom: null\n}"
+      }
+    ]
+  }
+}

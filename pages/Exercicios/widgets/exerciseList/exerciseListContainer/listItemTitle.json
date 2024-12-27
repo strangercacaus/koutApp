@@ -6,15 +6,6 @@
   "dynamicBindingPathList": [
     {
       "key": "text"
-    },
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",

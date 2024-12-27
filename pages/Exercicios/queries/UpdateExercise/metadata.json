@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT update_exercise(\n\t\t{{this.params.id}},\n    {{this.params.title}},\n    {{this.params.title_en}},\n    {{this.params.equipment_id}},\n    {{this.params.type_id}},\n    {{this.params.image_url}},\n    {{this.params.custom}},\n    {{this.params.muscle_id}}\n);",
+      "body": "SELECT update_exercise(\n\t\t{{this.params.id}},\n    {{this.params.title}},\n    {{this.params.title_en}},\n    {{this.params.equipment_id}},\n    {{this.params.type_id}},\n    {{this.params.image_url}},\n    {{this.params.custom}},\n    {{this.params.muscle_group_id}}\n);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

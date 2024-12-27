@@ -1,4 +1,3 @@
-BEGIN;
 INSERT INTO public.equipment (title, description, custom, image_url) values 
 (
     {{this.params.title}},
@@ -6,4 +5,3 @@ INSERT INTO public.equipment (title, description, custom, image_url) values
     {{this.params.custom}},
     {{this.params.image_url}}
 );
-COMMIT;

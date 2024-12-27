@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "exerciseDTO",
-        "value": "{\n  id: null,\n  created_at: null,\n  updated_at: null,\n  title: null,\n  title_en: null,\n  equipment_id: null,\n  muscle_id: null,\n  type_id: null,\n  image_url: null,\n  custom: null\n}"
+        "value": "{\n  id: null,\n  created_at: null,\n  updated_at: null,\n  title: null,\n  title_en: null,\n  equipment_id: null,\n  muscle_group_id: null,\n  type_id: null,\n  image_url: null,\n  custom: null\n}"
       }
     ]
   }

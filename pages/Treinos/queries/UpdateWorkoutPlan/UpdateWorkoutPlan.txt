@@ -7,4 +7,3 @@ SET
 	active = {{this.params.active}},
 	personal_trainer = {{this.params.personal_trainer}}
 WHERE id = {{this.params.id}};
-COMMIT;

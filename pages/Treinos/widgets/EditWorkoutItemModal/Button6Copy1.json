@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 41,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "qxbgkfy9bw",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "onClick": "{{WorkoutItemDTO.saveDataFromUI(WorkoutItemDTO.workoutItemDTO.id, WorkoutItemDTO.workoutItemDTO.workout_plan_id, AddWorkoutItemFormExerciseCopy.selectedOptionValue, AddWorkoutItemFormRepsCopy.text, AddWorkoutItemFormSetsCopy.text, WorkoutItemDTO.workoutItemDTO.restpause, AddWorkoutItemFormLoadCopy.text, AddWorkoutItemFormInclineCopy.text, AddWorkoutItemFormConditionCopy.text, AddWorkoutItemFormOrderCopy.text, AddWorkoutItemFormDurationCopy.text);\nWorkoutItemDTO.update();\ncloseModal(EditWorkoutItemModal.name);}}",
+  "parentColumnSpace": 6.4921875,
+  "parentId": "dqqshr53q5",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Salvar",
+  "topRow": 37,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "bagzru8t8b",
+  "widgetName": "Button6Copy1"
+}
