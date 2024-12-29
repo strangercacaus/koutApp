@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 72,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
@@ -44,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 22,
   "text": "Treinos",
-  "topRow": 76,
+  "topRow": 67,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "l1mcpyvnjo",
