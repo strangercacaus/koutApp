@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#f5f4f5",
+  "backgroundColor": "white",
   "borderColor": "#ffffff",
-  "borderRadius": "1.5rem",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 14,
-  "boxShadow": "none",
+  "bottomRow": 6,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 140,
+      "bottomRow": 60,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -26,25 +26,29 @@
       "flexLayers": [],
       "isLoading": false,
       "isVisible": true,
-      "key": "n6165vkrrr",
+      "key": "u3grx49rgw",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
+      "minHeight": null,
       "minWidth": 450,
+      "mobileBottomRow": null,
       "mobileLeftColumn": 0,
+      "mobileRightColumn": null,
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "np6hpqal5l",
+      "parentId": "e7zgf9lgec",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
+      "rightColumn": null,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "useAutoLayout": false,
       "version": 1,
-      "widgetId": "8mkrj420f0",
-      "widgetName": "Canvas2"
+      "widgetId": "w85k30b8ik",
+      "widgetName": "Canvas11"
     }
   ],
   "containerStyle": "card",
@@ -53,7 +57,14 @@
   ],
   "disallowCopy": true,
   "dragDisabled": true,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
@@ -62,7 +73,7 @@
   "isListItemContainer": true,
   "isLoading": false,
   "isVisible": true,
-  "key": "olyeh5h2z7",
+  "key": "9k9wrtjcbn",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
@@ -73,7 +84,7 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "noContainerOffset": true,
-  "parentId": "gjgjr29jvn",
+  "parentId": "ka9tmqp4f3",
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -82,6 +93,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "np6hpqal5l",
-  "widgetName": "exerciseListContainer"
+  "widgetId": "e7zgf9lgec",
+  "widgetName": "Container1"
 }

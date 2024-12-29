@@ -1,0 +1,86 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItem2.iconColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem1.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "cog",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{ExerciseDTO.exerciseDTO.custom}}",
+  "key": "d1wt105acq",
+  "label": "",
+  "leftColumn": 56,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Edit",
+      "onClick": "{{showModal(updateExerciseModal.name);}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "backgroundColor": "#ef4444",
+      "iconAlign": "right",
+      "iconColor": "{{appsmith.theme.colors.backgroundColor}}",
+      "iconName": "trash",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Delete",
+      "onClick": "{{showModal(deleteExerciseModal.name);}}",
+      "textColor": "#ffffff",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 45,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.4921875,
+  "parentId": "s8g04a7qof",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "xz3n60jrhi",
+  "widgetName": "MenuButton1"
+}

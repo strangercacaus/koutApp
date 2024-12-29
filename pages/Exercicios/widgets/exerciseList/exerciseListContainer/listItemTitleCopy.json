@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 10,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -12,12 +12,12 @@
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
-  "fontSize": "1.25rem",
-  "fontStyle": "BOLD",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "02fgn27vaj",
-  "leftColumn": 20,
+  "leftColumn": 19,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -32,14 +32,14 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "{{currentItem.title}}",
+  "text": "{{currentItem.title_en}}",
   "textAlign": "RIGHT",
-  "textColor": "#1e3a8a",
+  "textColor": "#18181b",
   "textStyle": "HEADING",
-  "topRow": 2,
+  "topRow": 6,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "q31clih9ae",
-  "widgetName": "listItemTitle"
+  "widgetId": "4nuwuc400p",
+  "widgetName": "listItemTitleCopy"
 }

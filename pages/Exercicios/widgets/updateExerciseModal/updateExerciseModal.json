@@ -8,7 +8,7 @@
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 660,
+      "bottomRow": 640,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -29,7 +29,7 @@
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
-      "minHeight": 660,
+      "minHeight": 648,
       "minWidth": 450,
       "mobileBottomRow": 240,
       "mobileLeftColumn": 0,
@@ -58,7 +58,7 @@
       "key": "onClose"
     }
   ],
-  "height": 660,
+  "height": 648,
   "isCanvas": true,
   "isLoading": false,
   "key": "qkpbgliju6",
@@ -70,13 +70,13 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClose": "{{ExerciseDTO.clearData();\nListExercise.run()}}",
+  "onClose": "{{showModal(Exercise_Details.name);}}",
   "parentColumnSpace": 6.53125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 33,
-  "shouldScrollContents": true,
+  "shouldScrollContents": false,
   "topRow": 65,
   "type": "MODAL_WIDGET",
   "version": 2,

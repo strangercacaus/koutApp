@@ -475,7 +475,7 @@
       "sourceData": {}
     }
   },
-  "scrollContents": true,
+  "scrollContents": false,
   "showReset": true,
   "sourceData": "{{ExerciseDTO.exerciseDTO}}",
   "submitButtonLabel": "Enviar",
