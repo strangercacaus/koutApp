@@ -43,6 +43,8 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onTextChanged": "{{WorkoutPlanDTO.saveDataFromUI(WorkoutPlanDTO.workoutPlanDTO.id, WorkoutPlanDTO.workoutPlanDTO.title, updateWOFormDescInput.text, WorkoutPlanDTO.workoutPlanDTO.start_date, WorkoutPlanDTO.workoutPlanDTO.end_date, WorkoutPlanDTO.workoutPlanDTO.active, WorkoutPlanDTO.workoutPlanDTO.personal_trainer);}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 18,
   "parentColumnSpace": 6.0782470703125,
   "parentId": "al3qokk0sl",
   "parentRowSpace": 10,

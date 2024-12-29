@@ -23,7 +23,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(updateWorkoutPlanModal.name);\nWorkoutPlanDTO.clearData();}}",
+  "onClick": "{{closeModal(updateWorkoutPlanModal.name);\nWorkoutPlanDTO.clearData();\nListWorkoutPlan.run()}}",
   "parentColumnSpace": 6.4921875,
   "parentId": "al3qokk0sl",
   "parentRowSpace": 10,

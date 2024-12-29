@@ -1,23 +1,18 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 9,
   "boxShadow": "none",
   "dynamicBindingPathList": [
-    {
-      "key": "text"
-    },
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "System Default",
   "fontSize": "0.875rem",
@@ -25,29 +20,29 @@
   "isLoading": false,
   "isVisible": true,
   "key": "02fgn27vaj",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
+  "mobileBottomRow": 4,
   "mobileLeftColumn": 16,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 4,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
   "overflow": "NONE",
   "parentId": "dvsv14tsun",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 20,
   "shouldTruncate": false,
-  "text": "{{currentItem.description}}",
+  "text": "Exercícios",
   "textAlign": "CENTER",
-  "textColor": "#231F20",
-  "textStyle": "BODY",
-  "topRow": 7,
+  "textColor": "#18181b",
+  "textStyle": "HEADING",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "d5qx051j1l",
-  "widgetName": "listItemSubTitle"
+  "widgetId": "yazz1os0hv",
+  "widgetName": "listItemTitleCopy"
 }

@@ -6,7 +6,10 @@ SELECT wp.id,
 			 wp.start_date,
 			 wp.end_date,
 			 wp.active,
-			 wp.personal_trainer
+			 wp.personal_trainer,
+			 (select count(*) from workout_item wi where wi.workout_plan_id = wp.id) as plan_item_qty,
+			 (select sum(sets) from workout_item wi where wi.workout_plan_id = wp.id) as plan_total_sets_qty,
+			 (select sum( wi.reps * wi.sets * wi.load) from workout_item wi where wi.workout_plan_id = wp.id) as plan_total_load
 FROM public.workout_plan wp
 WHERE CASE 
 				WHEN {{this.params.active}} = 2 THEN wp.active = TRUE

@@ -1,36 +1,26 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 9,
   "boxShadow": "none",
   "dynamicBindingPathList": [
-    {
-      "key": "text"
-    },
     {
       "key": "truncateButtonColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "fontSize"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
-  "fontFamily": "Poppins",
-  "fontSize": "1.5rem",
-  "fontStyle": "BOLD",
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
   "key": "02fgn27vaj",
-  "leftColumn": 7,
+  "leftColumn": 22,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -43,16 +33,16 @@
   "parentId": "dvsv14tsun",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 56,
+  "rightColumn": 42,
   "shouldTruncate": false,
-  "text": "{{currentItem.title}}",
+  "text": "Repetições\n",
   "textAlign": "CENTER",
-  "textColor": "#1e3a8a",
+  "textColor": "#18181b",
   "textStyle": "HEADING",
-  "topRow": 1,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "j6kvi7r9ew",
-  "widgetName": "listItemTitle"
+  "widgetId": "fxc100qd1r",
+  "widgetName": "listItemTitleCopyCopy"
 }

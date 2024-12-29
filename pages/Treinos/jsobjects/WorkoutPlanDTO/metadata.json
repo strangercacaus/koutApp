@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "workoutPlanDTO",
-        "value": "{\n  id: null,\n  title: null,\n  description: null,\n  start_date: null,\n  end_date: null,\n  active: null,\n  personal_trainer: null\n}"
+        "value": "{\n  id: null,\n  title: null,\n  description: null,\n  start_date: null,\n  end_date: null,\n  active: null,\n  personal_trainer: null,\n  plan_item_qty: null,\n  plan_total_sets: null,\n  plan_total_load: null\n}"
       }
     ]
   }

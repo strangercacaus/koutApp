@@ -1,2 +1,4 @@
-DELETE FROM public.workout_item
-WHERE id = {{this.params.id}};
+select public.delete_workout_item
+	(
+	{{this.params.id}}
+	);

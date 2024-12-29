@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT wp.id,\n\t\t\t wp.\"title\",\n\t\t\t wp.description,\n\t\t\t wp.created_at,\n\t\t\t wp.updated_at,\n\t\t\t wp.start_date,\n\t\t\t wp.end_date,\n\t\t\t wp.active,\n\t\t\t wp.personal_trainer\nFROM public.workout_plan wp\nWHERE CASE \n\t\t\t\tWHEN {{this.params.active}} = 2 THEN wp.active = TRUE\n\t\t\t\tWHEN {{this.params.active}} = 1 THEN wp.active = FALSE\n\t\t\t\tELSE TRUE\n\t\t\tEND\nORDER BY wp.id asc;",
+      "body": "SELECT wp.id,\n\t\t\t wp.\"title\",\n\t\t\t wp.description,\n\t\t\t wp.created_at,\n\t\t\t wp.updated_at,\n\t\t\t wp.start_date,\n\t\t\t wp.end_date,\n\t\t\t wp.active,\n\t\t\t wp.personal_trainer,\n\t\t\t (select count(*) from workout_item wi where wi.workout_plan_id = wp.id) as plan_item_qty,\n\t\t\t (select sum(sets) from workout_item wi where wi.workout_plan_id = wp.id) as plan_total_sets_qty,\n\t\t\t (select sum( wi.reps * wi.sets * wi.load) from workout_item wi where wi.workout_plan_id = wp.id) as plan_total_load\nFROM public.workout_plan wp\nWHERE CASE \n\t\t\t\tWHEN {{this.params.active}} = 2 THEN wp.active = TRUE\n\t\t\t\tWHEN {{this.params.active}} = 1 THEN wp.active = FALSE\n\t\t\t\tELSE TRUE\n\t\t\tEND\nORDER BY wp.id asc;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

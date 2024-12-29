@@ -163,6 +163,33 @@
     },
     {
       "key": "schema.__root_schema__.children.end_date.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_item_qty.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_item_qty.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_item_qty.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_sets.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_sets.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_sets.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_load.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_load.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_total_load.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -322,6 +349,72 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "personal_trainer",
           "position": 6
+        },
+        "plan_item_qty": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "accessor": "plan_item_qty",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.plan_item_qty))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "plan_item_qty",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Plan Item Qty",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "plan_item_qty",
+          "position": 7,
+          "sourceData": null
+        },
+        "plan_total_load": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "accessor": "plan_total_load",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.plan_total_load))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "plan_total_load",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Plan Total Load",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "plan_total_load",
+          "position": 9,
+          "sourceData": null
+        },
+        "plan_total_sets": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "accessor": "plan_total_sets",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.plan_total_sets))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "plan_total_sets",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Plan Total Sets",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "plan_total_sets",
+          "position": 8,
+          "sourceData": null
         },
         "start_date": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",

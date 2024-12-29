@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 72,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
@@ -11,42 +11,38 @@
       "key": "buttonColor"
     },
     {
-      "key": "borderRadius"
+      "key": "text"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "iconName": "refresh",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "i07tt76kl8",
+  "key": "qxbgkfy9bw",
   "leftColumn": 22,
   "minWidth": 120,
-  "mobileBottomRow": 79,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 75,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Exercicios', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 72,
-  "originalTopRow": 67,
-  "parentColumnSpace": 6.84375,
-  "parentId": "0",
+  "parentColumnSpace": 5.7503662109375,
+  "parentId": "dvsv14tsun",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 43,
-  "text": "Exercícios",
-  "topRow": 67,
+  "rightColumn": 41,
+  "text": "{{currentItem.plan_total_sets_qty}}",
+  "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "5obd09uces",
-  "widgetName": "Button4Copy2"
+  "widgetId": "6ecbswpidi",
+  "widgetName": "Button7Copy2Copy"
 }

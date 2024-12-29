@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "DELETE FROM public.workout_item\nWHERE id = {{this.params.id}};",
+      "body": "select public.delete_workout_item\n\t(\n\t{{this.params.id}}\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

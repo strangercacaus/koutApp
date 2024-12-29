@@ -6,7 +6,10 @@ export default {
 		start_date: null,
 		end_date:null,
 		active: null,
-		personal_trainer: null
+		personal_trainer: null,
+		plan_item_qty: null,
+		plan_total_sets: null,
+		plan_total_load: null
   },
 	
   loadData(queryResult) {
@@ -17,6 +20,9 @@ export default {
 		this.workoutPlanDTO.end_date = queryResult.end_date;
 		this.workoutPlanDTO.active = queryResult.active;
 		this.workoutPlanDTO.personal_trainer = queryResult.personal_trainer;
+		this.workoutPlanDTO.plan_item_qty = queryResult.plan_item_qty;
+		this.workoutPlanDTO.plan_total_sets = queryResult.plan_total_sets;
+		this.workoutPlanDTO.plan_total_load = queryResult.plan_total_load;
   },
 
   saveDataFromUI(id, title, description, start_date, end_date, active, personal_trainer) {
@@ -37,6 +43,9 @@ export default {
 		this.workoutPlanDTO.end_date = null;
 		this.workoutPlanDTO.active = null;
 		this.workoutPlanDTO.personal_trainer = null;
+		this.workoutPlanDTO.plan_item_qty = null;
+		this.workoutPlanDTO.plan_total_sets = null;
+		this.workoutPlanDTO.plan_total_load = null;
   },
 
   async save() {
