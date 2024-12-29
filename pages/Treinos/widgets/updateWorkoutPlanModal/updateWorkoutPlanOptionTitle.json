@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 29,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 53,
-  "originalTopRow": 34,
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
   "overflow": "NONE",
   "parentColumnSpace": 6.4921875,
   "parentId": "al3qokk0sl",
@@ -43,7 +43,7 @@
   "text": "Exercícios",
   "textAlign": "LEFT",
   "textColor": "#1e3a8a",
-  "topRow": 34,
+  "topRow": 25,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

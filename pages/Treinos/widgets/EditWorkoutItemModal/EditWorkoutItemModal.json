@@ -70,7 +70,7 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClose": "{{showModal(updateWorkoutPlanModal.name).then(() => {\n  ListWorkoutItem.run({\n    \"workout_plan_id\": WorkoutPlanDTO.workoutPlanDTO.id\n  });\n});\nListWorkoutItem.run({\n  \"workout_plan_id\": WorkoutPlanDTO.workoutPlanDTO.id\n});}}",
+  "onClose": "{{showModal(updateWorkoutPlanModal.name).then(() => {\n  ListWorkoutItem.run({\n    \"workout_plan_id\": WorkoutPlanDTO.workoutPlanDTO.id\n  });\n});\nListWorkoutItem.run({\n  \"workout_plan_id\": WorkoutPlanDTO.workoutPlanDTO.id\n});\nWorkoutItemDTO.clearData();}}",
   "parentColumnSpace": 6.53125,
   "parentId": "0",
   "parentRowSpace": 10,

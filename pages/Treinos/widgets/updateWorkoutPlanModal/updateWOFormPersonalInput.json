@@ -2,16 +2,13 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "autoFocus": false,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "borderRadius": "0.375rem",
+  "bottomRow": 18,
   "boxShadow": "none",
   "defaultText": "{{WorkoutPlanDTO.workoutPlanDTO.personal_trainer}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     },
     {
       "key": "defaultText"
@@ -36,7 +33,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": "16",
-  "leftColumn": 0,
+  "leftColumn": 37,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -46,19 +43,19 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onTextChanged": "{{WorkoutPlanDTO.saveDataFromUI(WorkoutPlanDTO.workoutPlanDTO.id, WorkoutPlanDTO.workoutPlanDTO.title, WorkoutPlanDTO.workoutPlanDTO.description, WorkoutPlanDTO.workoutPlanDTO.start_date, WorkoutPlanDTO.workoutPlanDTO.end_date, WorkoutPlanDTO.workoutPlanDTO.active, updateWOFormPersonalInput.text);}}",
-  "originalBottomRow": 28,
-  "originalTopRow": 21,
+  "originalBottomRow": 18,
+  "originalTopRow": 11,
   "parentColumnSpace": 6.0782470703125,
-  "parentId": "iefnhsts2i",
+  "parentId": "al3qokk0sl",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 61,
   "showStepArrows": false,
-  "topRow": 21,
+  "topRow": 11,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "lpw5voh69e",
+  "widgetId": "6i8nl119ev",
   "widgetName": "updateWOFormPersonalInput"
 }

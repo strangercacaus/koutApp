@@ -31,7 +31,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "onClick": "{{WorkoutItemDTO.saveDataFromUI(WorkoutItemDTO.workoutItemDTO.id, WorkoutItemDTO.workoutItemDTO.created_at, WorkoutItemDTO.workoutItemDTO.updated_at, WorkoutPlanDTO.workoutPlanDTO.id, AddWorkoutItemFormExercise.selectedOptionValue, AddWorkoutItemFormReps.text, AddWorkoutItemFormSets.text, WorkoutItemDTO.workoutItemDTO.restpause, AddWorkoutItemFormLoad.text, AddWorkoutItemFormIncline.text, AddWorkoutItemFormCondition.text, AddWorkoutItemFormOrder.text);\nWorkoutItemDTO.save();\ncloseModal(createWorkoutItemModal.name);}}",
+  "onClick": "{{WorkoutItemDTO.saveDataFromUI(WorkoutItemDTO.workoutItemDTO.id, WorkoutPlanDTO.workoutPlanDTO.id, AddWorkoutItemFormExercise.selectedOptionValue, AddWorkoutItemFormReps.text, AddWorkoutItemFormSets.text, AddWorkoutItemFormRestpause.text, AddWorkoutItemFormLoad.text, WorkoutItemDTO.workoutItemDTO.incline, AddWorkoutItemFormCondition.text, AddWorkoutItemFormOrder.text, AddWorkoutItemFormDuration.text, AddWorkoutItemFormOrder.text);\nWorkoutItemDTO.save();\ncloseModal(createWorkoutItemModal.name);}}",
   "parentColumnSpace": 6.4921875,
   "parentId": "2zhiuwvytw",
   "parentRowSpace": 10,

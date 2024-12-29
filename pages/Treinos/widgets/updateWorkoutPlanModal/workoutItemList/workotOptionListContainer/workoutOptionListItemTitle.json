@@ -18,10 +18,14 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "System Default",
-  "fontSize": "0.875rem",
+  "fontFamily": "Poppins",
+  "fontSize": "0,95rem\n",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -39,7 +43,7 @@
   "parentId": "bv11b6cqu3",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 58,
   "shouldTruncate": false,
   "text": "{{currentItem.exercise_name}}",
   "textAlign": "LEFT",

@@ -20,4 +20,4 @@ join public.exercise e on woi.exercise_id = e.id
 join public.equipment  eq on e.equipment_id = eq.id
 join public.exercise_type et on e.type_id = et.id
 where woi.workout_plan_id = {{this.params.workout_plan_id}}
-ORDER BY woi.id asc;
+ORDER BY woi.order asc;

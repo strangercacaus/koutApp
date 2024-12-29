@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 26,
   "boxShadow": "none",
-  "defaultText": "{{WorkoutItemDTO.workoutItemDTO.incline}}",
+  "defaultText": "{{WorkoutItemDTO.workoutItemDTO.restpause}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -26,7 +26,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "zc437l0kt8",
-  "label": "Inclinação",
+  "label": "Descanso",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -42,7 +42,7 @@
   "mobileTopRow": 12,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.4921875,
-  "parentId": "2zhiuwvytw",
+  "parentId": "dqqshr53q5",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
@@ -53,6 +53,6 @@
   "topRow": 19,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "1alabvo3xh",
-  "widgetName": "AddWorkoutItemFormIncline"
+  "widgetId": "5vna2fht0o",
+  "widgetName": "AddWorkoutItemFormRestpauseCop"
 }

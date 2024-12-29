@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT woi.id,\n\t\t\t woi.created_at,\n\t\t\t woi.updated_at,\n\t\t\t woi.workout_plan_id,\n\t\t\t woi.exercise_id,\n\t\t\t e.title as exercise_name,\n\t\t\t e.image_url as exercise_image_url,\n\t\t\t et.title as exercise_type,\n\t\t\t eq.title as equipment_name,\n\t\t\t woi.reps,\n\t\t\t woi.sets,\n\t\t\t woi.restpause,\n\t\t\t woi.load,\n\t\t\t woi.incline,\n\t\t\t woi.condition,\n\t\t\t woi.order,\n\t\t\t woi.duration\nFROM public.workout_item woi\njoin public.exercise e on woi.exercise_id = e.id\njoin public.equipment  eq on e.equipment_id = eq.id\njoin public.exercise_type et on e.type_id = et.id\nwhere woi.workout_plan_id = {{this.params.workout_plan_id}}\nORDER BY woi.id asc;",
+      "body": "SELECT woi.id,\n\t\t\t woi.created_at,\n\t\t\t woi.updated_at,\n\t\t\t woi.workout_plan_id,\n\t\t\t woi.exercise_id,\n\t\t\t e.title as exercise_name,\n\t\t\t e.image_url as exercise_image_url,\n\t\t\t et.title as exercise_type,\n\t\t\t eq.title as equipment_name,\n\t\t\t woi.reps,\n\t\t\t woi.sets,\n\t\t\t woi.restpause,\n\t\t\t woi.load,\n\t\t\t woi.incline,\n\t\t\t woi.condition,\n\t\t\t woi.order,\n\t\t\t woi.duration\nFROM public.workout_item woi\njoin public.exercise e on woi.exercise_id = e.id\njoin public.equipment  eq on e.equipment_id = eq.id\njoin public.exercise_type et on e.type_id = et.id\nwhere woi.workout_plan_id = {{this.params.workout_plan_id}}\nORDER BY woi.order asc;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
