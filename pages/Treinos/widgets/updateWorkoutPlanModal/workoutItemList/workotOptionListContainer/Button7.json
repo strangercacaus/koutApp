@@ -12,17 +12,25 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "iconAlign": "right",
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{currentItem.load === null}}",
   "isLoading": false,
   "isVisible": true,
   "key": "qxbgkfy9bw",
-  "leftColumn": 12,
+  "leftColumn": 13,
   "minWidth": 120,
   "mobileBottomRow": 5,
   "mobileLeftColumn": 25,
@@ -37,8 +45,8 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 30,
-  "text": "{{currentItem.load}} KG",
+  "rightColumn": 31,
+  "text": "{{currentItem.load > 0? \ncurrentItem.load+\" KG\" : \"No Load\" }}",
   "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
