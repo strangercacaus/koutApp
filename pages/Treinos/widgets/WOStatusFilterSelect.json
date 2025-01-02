@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -32,8 +36,8 @@
   "labelText": "Status:",
   "labelTextColor": "#1e3a8a",
   "labelTextSize": "0.875rem",
-  "labelWidth": "9",
-  "leftColumn": 37,
+  "labelWidth": "8",
+  "leftColumn": 36,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -42,6 +46,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
+  "onOptionChange": "{{ListWorkoutPlan.run({\n  \"active\": WOStatusFilterSelect.selectedOptionValue\n});}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 6.84375,
@@ -50,7 +55,7 @@
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"Ativos\",\n    \"code\": \"2\"\n  },\n  {\n    \"name\": \"Inativos\",\n    \"code\": \"1\"\n  },\n  {\n    \"name\": \"Todos\",\n    \"code\": \"0\"\n  }\n]",
   "topRow": 6,

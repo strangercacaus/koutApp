@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -16,7 +16,7 @@
       "key": "text"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
@@ -33,8 +33,6 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 6,
   "overflow": "NONE",
   "parentId": "7v1fo6f1et",
   "renderMode": "CANVAS",
@@ -45,7 +43,7 @@
   "text": "Deseja mesmo excluir \"{{WorkoutPlanDTO.workoutPlanDTO.title}}\"?",
   "textAlign": "CENTER",
   "textColor": "#1e3a8a",
-  "topRow": 6,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

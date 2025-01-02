@@ -369,8 +369,7 @@
           "label": "Plan Item Qty",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "plan_item_qty",
-          "position": 7,
-          "sourceData": null
+          "position": 7
         },
         "plan_total_load": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
@@ -391,8 +390,7 @@
           "label": "Plan Total Load",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "plan_total_load",
-          "position": 9,
-          "sourceData": null
+          "position": 9
         },
         "plan_total_sets": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
@@ -413,8 +411,7 @@
           "label": "Plan Total Sets",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "plan_total_sets",
-          "position": 8,
-          "sourceData": null
+          "position": 8
         },
         "start_date": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(createJsonForm.sourceData, createJsonForm.formData, createJsonForm.fieldState)}}",
