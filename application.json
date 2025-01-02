@@ -35,11 +35,15 @@
     },
     {
       "id": "Treinos",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Equipamentos",
       "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {

@@ -26,7 +26,7 @@
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{currentItem.reps === null}}",
+  "isDisabled": "{{currentItem.reps == null || currentItem.reps == 0}}\n",
   "isLoading": false,
   "isVisible": true,
   "key": "qxbgkfy9bw",

@@ -9,7 +9,11 @@
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
     }
   },
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "groupButtons.groupButtong66dn4kfqp.buttonColor"
+    }
+  ],
   "dynamicPropertyPathList": [
     {
       "key": "groupButtons.groupButton3.menuItems.menuItem3.isDisabled"
@@ -24,6 +28,9 @@
     },
     {
       "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtong66dn4kfqp.onClick"
     }
   ],
   "groupButtons": {
@@ -32,7 +39,7 @@
       "buttonType": "SIMPLE",
       "iconName": "add",
       "id": "groupButton2",
-      "index": 1,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "",
@@ -46,7 +53,7 @@
       "buttonType": "SIMPLE",
       "iconName": "refresh",
       "id": "groupButton70aq1ghn7j",
-      "index": 0,
+      "index": 1,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
@@ -57,13 +64,30 @@
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "i00yf7xdzi"
+    },
+    "groupButtong66dn4kfqp": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "home",
+      "id": "groupButtong66dn4kfqp",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "kgihf9rxju"
     }
   },
   "isCanvas": false,
   "isLoading": false,
   "isVisible": true,
   "key": "awqtoz4jyi",
-  "leftColumn": 44,
+  "leftColumn": 40,
   "minWidth": 450,
   "mobileBottomRow": 75,
   "mobileLeftColumn": 39,

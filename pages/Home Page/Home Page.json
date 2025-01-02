@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_4ed76e5f-bf2f-4c00-8844-b71852f2565b",
+  "gitSyncId": "67303ef6bcf71f4b5bed5b9d_14204d54-de5f-4d24-bc7b-b883746bf73b",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 760,
+          "bottomRow": 780,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 810,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 79,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Exercicios",
-    "slug": "exercicios"
+    "name": "Home Page",
+    "slug": "home-page"
   }
 }

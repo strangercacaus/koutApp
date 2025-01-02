@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "defaultImage": "https://static.vecteezy.com/system/resources/thumbnails/019/051/581/small_2x/dumbbell-symbol-icon-png.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k99r3qx6zg",
+  "leftColumn": 28,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 54,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 42,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "originalBottomRow": 54,
+  "originalTopRow": 42,
+  "parentColumnSpace": 6.53125,
+  "parentId": "klyx0vvgli",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "topRow": 36,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "kjbkew7xc4",
+  "widgetName": "Image1"
+}
