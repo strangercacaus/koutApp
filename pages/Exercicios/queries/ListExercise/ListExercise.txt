@@ -9,5 +9,9 @@ SELECT e.id,
 		     e.image_url,
 			 e.custom
 FROM exercise e
-where concat(e.title,';',e.title_en) ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'
+where concat(e.title,';',e.title_en, ';') ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'
+			or e.id in (select emg.exercise_id
+									from exercise_muscle_group emg
+									join muscle_group mg on emg.muscle_group_id = mg.id
+									where concat(mg.title,';',mg.title_en, ';') ilike '%' || coalesce({{this.params.searchTerm}},'') || '%' )
 ORDER BY e.id asc;

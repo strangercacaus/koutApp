@@ -94,7 +94,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 41,
   "needsErrorInfo": false,
-  "onItemClick": "{{ExerciseDTO.loadData(exerciseList.triggeredItem);\nshowModal(Exercise_Details.name);}}",
+  "onItemClick": "{{ExerciseDTO.loadData(exerciseList.triggeredItem);}}",
   "originalBottomRow": 67,
   "originalTopRow": 10,
   "pageSize": 3,

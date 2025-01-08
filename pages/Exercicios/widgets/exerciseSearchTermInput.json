@@ -15,6 +15,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
     }
   ],
   "iconAlign": "left",
@@ -40,12 +43,13 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "onSubmit": "{{ListExercise.run({\n \"searchTerm\": exerciseSearchTermInput.text,\n});}}",
+  "onTextChanged": "{{ListExercise.run({\n  \"searchTerm\": exerciseSearchTermInput.text\n});}}",
   "originalBottomRow": 10,
   "originalTopRow": 6,
   "parentColumnSpace": 6.53125,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "Digite o nome de um exercício",
+  "placeholderText": "Digite um termo para busca",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",

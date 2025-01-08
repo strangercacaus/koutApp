@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT e.id,\n\t\t\t e.\"title\",\n\t\t\t e.title_en,\n\t\t\t e.created_at,\n\t\t\t e.updated_at,\n\t\t\t e.equipment_id,\n\t\t\t e.type_id,\n\t\t\t array(select em.muscle_group_id from exercise_muscle_group em where em.exercise_id = e.id) as muscle_group_id,\n\t\t     e.image_url,\n\t\t\t e.custom\nFROM exercise e\nwhere concat(e.title,';',e.title_en) ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\nORDER BY e.id asc;",
+      "body": "SELECT e.id,\n\t\t\t e.\"title\",\n\t\t\t e.title_en,\n\t\t\t e.created_at,\n\t\t\t e.updated_at,\n\t\t\t e.equipment_id,\n\t\t\t e.type_id,\n\t\t\t array(select em.muscle_group_id from exercise_muscle_group em where em.exercise_id = e.id) as muscle_group_id,\n\t\t     e.image_url,\n\t\t\t e.custom\nFROM exercise e\nwhere concat(e.title,';',e.title_en, ';') ilike '%' || coalesce({{this.params.searchTerm}},'') || '%'\n\t\t\tor e.id in (select emg.exercise_id\n\t\t\t\t\t\t\t\t\tfrom exercise_muscle_group emg\n\t\t\t\t\t\t\t\t\tjoin muscle_group mg on emg.muscle_group_id = mg.id\n\t\t\t\t\t\t\t\t\twhere concat(mg.title,';',mg.title_en, ';') ilike '%' || coalesce({{this.params.searchTerm}},'') || '%' )\nORDER BY e.id asc;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

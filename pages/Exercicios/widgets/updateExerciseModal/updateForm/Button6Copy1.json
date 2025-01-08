@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 62,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "gazwdxh8z1",
+  "leftColumn": 45,
+  "minWidth": 120,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 57,
+  "needsErrorInfo": false,
+  "onClick": "{{ExerciseDTO.saveDataFromUI(ExerciseDTO.exerciseDTO.id, NameInputCopy1.text, NameInputCopyCopy.text.text, ExerciseDTO.exerciseDTO.created_at, ExerciseDTO.exerciseDTO.updated_at, Select1Copy.selectedOptionValue, MultiSelect1Copy.selectedOptionValues, Select2Copy.selectedOptionValue, FilePicker1Copy.files.length === 1 ? FilePicker1Copy.files[0].data : ExerciseDTO.exerciseDTO.image_url);\nExerciseDTO.update();\nresetWidget(\"FilePicker1Copy\", true);\ncloseModal(updateExerciseModal.name);}}",
+  "parentColumnSpace": 6.1796875,
+  "parentId": "6mj8n3oqou",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Enviar",
+  "topRow": 58,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fuxfglbkdv",
+  "widgetName": "Button6Copy1"
+}
