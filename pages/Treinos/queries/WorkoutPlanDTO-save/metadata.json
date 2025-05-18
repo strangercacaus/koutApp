@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "WorkoutPlanDTO.save",
     "name": "save",
     "pageId": "Treinos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

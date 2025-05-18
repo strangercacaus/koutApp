@@ -56,10 +56,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "WorkoutItemDTO.saveDataFromUI",
     "name": "saveDataFromUI",
     "pageId": "Treinos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

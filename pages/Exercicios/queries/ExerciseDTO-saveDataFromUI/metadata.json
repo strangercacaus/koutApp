@@ -53,10 +53,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "ExerciseDTO.saveDataFromUI",
     "name": "saveDataFromUI",
     "pageId": "Exercicios",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

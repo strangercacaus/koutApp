@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "WorkoutItemDTO.clearData",
     "name": "clearData",
     "pageId": "Treinos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

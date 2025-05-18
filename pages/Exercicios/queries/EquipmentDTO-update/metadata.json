@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.update",
     "name": "update",
     "pageId": "Exercicios",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

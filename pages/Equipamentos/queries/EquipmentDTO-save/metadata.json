@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.save",
     "name": "save",
     "pageId": "Equipamentos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

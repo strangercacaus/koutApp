@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.loadData",
     "name": "loadData",
     "pageId": "Equipamentos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "UpdateEquipment",
     "pageId": "Equipamentos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

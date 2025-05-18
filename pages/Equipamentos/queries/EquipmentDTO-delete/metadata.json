@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.delete",
     "name": "delete",
     "pageId": "Equipamentos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

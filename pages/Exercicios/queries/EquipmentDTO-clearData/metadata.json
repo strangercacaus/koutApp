@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.clearData",
     "name": "clearData",
     "pageId": "Exercicios",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

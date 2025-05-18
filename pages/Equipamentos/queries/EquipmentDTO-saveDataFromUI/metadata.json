@@ -44,10 +44,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "EquipmentDTO.saveDataFromUI",
     "name": "saveDataFromUI",
     "pageId": "Equipamentos",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
